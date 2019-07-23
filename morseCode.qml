@@ -5,6 +5,7 @@ MuseScore {
       menuPath: "Plugins.morseCode"
       description: "Transfer Text to Morse Code"
       version: "1.0"
+      requiresScore: false
 
 //Returns a binary string equivalent of the morse code translation of a character
 function charToBin(x) {
