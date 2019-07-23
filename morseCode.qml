@@ -126,7 +126,7 @@ function writeNotes(x) {
             quart0.tickLen = 480;
             
       //Main Code
-      //var userIn = prompt("Please enter some text (special characters won't be translated)","example text");
+      var userIn = prompt("Please enter some text (special characters won't be translated)","example text");
       if(userIn!=null) {
         //Convert user input into binary morse code string
         var userInBinary = "";
